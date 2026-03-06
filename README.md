@@ -2,6 +2,8 @@
 
 An end-to-end automation pipeline that converts call transcripts into deployable Retell AI voice agent configurations. Built as a zero-cost, reproducible system for onboarding service trade businesses onto Clara Answers.
 
+[Video Explanation Link](https://www.loom.com/share/9b7b4cdbce5743868f95827c2db8d222)
+
 ---
 
 ## What This Does
