@@ -1,0 +1,46 @@
+{
+  "account_id": "account_001",
+  "company_name": "Ben's Electric Solutions Team",
+  "owner_name": "Ben",
+  "contact_email": "info@bens-electric-solutions-team.com",
+  "contact_phone": "same as main line",
+  "business_hours": {
+    "days": "Monday to Friday",
+    "start": "8:00 AM",
+    "end": "4:30 PM",
+    "timezone": null
+  },
+  "office_address": null,
+  "services_supported": [
+    "electric services",
+    "service calls"
+  ],
+  "pricing_info": "$115 service call fee, $98 hourly charge",
+  "emergency_definition": [
+    "calls from GNM pressure washing"
+  ],
+  "emergency_routing_rules": {
+    "primary_contact": "Ben",
+    "transfer_number": "second number (not yet set up)",
+    "fallback": null,
+    "special_clients": [
+      "GNM pressure washing"
+    ]
+  },
+  "non_emergency_routing_rules": null,
+  "call_transfer_rules": {
+    "transfer_on": "if customer requests to speak to someone",
+    "timeout": null,
+    "transfer_fail_action": null
+  },
+  "integration_constraints": [],
+  "after_hours_flow_summary": "forward calls to Ben for GNM pressure washing, otherwise do not dispatch",
+  "office_hours_flow_summary": "answer calls, provide service call fee information if requested",
+  "call_forwarding_setup": "set up to forward calls to Clara if Ben does not answer or declines",
+  "second_number_status": "not yet set up",
+  "questions_or_unknowns": [
+    "timezone",
+    "fallback emergency routing rule"
+  ],
+  "notes": "Ben's Electric Solutions Team is setting up Clara to handle incoming calls, with a focus on new clients and service calls. The system will be configured to forward calls to Ben if he does not answer or declines, and to provide service call fee information if requested."
+}

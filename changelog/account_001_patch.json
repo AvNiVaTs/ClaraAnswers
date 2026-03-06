@@ -1,0 +1,91 @@
+{
+  "patch": {
+    "contact_email": "info@bens-electric-solutions-team.com",
+    "business_hours": {
+      "days": "Monday to Friday",
+      "start": "8:00 AM",
+      "end": "4:30 PM"
+    },
+    "pricing_info": "$115 service call fee, $98 hourly charge",
+    "emergency_routing_rules": {
+      "special_clients": [
+        "GNM pressure washing"
+      ]
+    },
+    "non_emergency_routing_rules": null,
+    "call_transfer_rules": {
+      "transfer_on": "if customer requests to speak to someone"
+    },
+    "after_hours_flow_summary": "forward calls to Ben for GNM pressure washing, otherwise do not dispatch",
+    "office_hours_flow_summary": "answer calls, provide service call fee information if requested",
+    "second_number_status": "setup in progress"
+  },
+  "changelog": [
+    {
+      "field": "contact_email",
+      "old_value": "info@bens-electric-solutions-team.com",
+      "new_value": "info@bens-electric-solutions-team.com",
+      "reason": "confirmed email address"
+    },
+    {
+      "field": "business_hours",
+      "old_value": {
+        "days": "Monday to Friday",
+        "start": "8:00 AM",
+        "end": "4:30 PM",
+        "timezone": null
+      },
+      "new_value": {
+        "days": "Monday to Friday",
+        "start": "8:00 AM",
+        "end": "4:30 PM"
+      },
+      "reason": "confirmed business hours"
+    },
+    {
+      "field": "pricing_info",
+      "old_value": "$115 service call fee, $98 hourly charge",
+      "new_value": "$115 service call fee, $98 hourly charge",
+      "reason": "confirmed pricing information"
+    },
+    {
+      "field": "emergency_routing_rules",
+      "old_value": {
+        "primary_contact": "Ben",
+        "transfer_number": "second number (not yet set up)",
+        "fallback": null,
+        "special_clients": [
+          "GNM pressure washing"
+        ]
+      },
+      "new_value": {
+        "special_clients": [
+          "GNM pressure washing"
+        ]
+      },
+      "reason": "updated special clients for emergency routing"
+    },
+    {
+      "field": "after_hours_flow_summary",
+      "old_value": "forward calls to Ben for GNM pressure washing, otherwise do not dispatch",
+      "new_value": "forward calls to Ben for GNM pressure washing, otherwise do not dispatch",
+      "reason": "confirmed after hours flow summary"
+    },
+    {
+      "field": "office_hours_flow_summary",
+      "old_value": "answer calls, provide service call fee information if requested",
+      "new_value": "answer calls, provide service call fee information if requested",
+      "reason": "confirmed office hours flow summary"
+    },
+    {
+      "field": "second_number_status",
+      "old_value": "not yet set up",
+      "new_value": "setup in progress",
+      "reason": "second number setup in progress"
+    }
+  ],
+  "resolved_unknowns": [
+    "timezone"
+  ],
+  "new_unknowns": []
+}
